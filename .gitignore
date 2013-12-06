@@ -1,0 +1,11 @@
+echoserver.bin
+echoserver.elf
+echoserver.hex
+echoserver.list
+echoserver.map
+*.o
+echoserver.srec
+o
+*~
+*.d
+/wlan_keys.h

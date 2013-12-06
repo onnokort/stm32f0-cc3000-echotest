@@ -1,0 +1,6 @@
+[submodule "cc3000-simple"]
+	path = cc3000-simple
+	url = https://github.com/onnokort/cc3000-simple.git
+[submodule "libopencm3"]
+	path = libopencm3
+	url = https://github.com/onnokort/libopencm3.git
