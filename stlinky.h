@@ -1,3 +1,7 @@
+// This is code adapted from:
+// https://github.com/nekromant/antares
+// License GPLv2, according to
+// https://github.com/nekromant/antares/blob/master/README
 #ifndef STLINKY_H
 #define STLINKY_H
 

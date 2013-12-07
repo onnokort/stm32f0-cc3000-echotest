@@ -1,3 +1,7 @@
+// This is code adapted from:
+// https://github.com/nekromant/antares
+// License GPLv2, according to
+// https://github.com/nekromant/antares/blob/master/README
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
