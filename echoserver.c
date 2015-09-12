@@ -37,7 +37,9 @@
 *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *
 *****************************************************************************/
+#include <stdint.h>
 #include <string.h>
+#include <libopencm3/cm3/common.h>
 #include <libopencm3/stm32/f0/gpio.h>
 #include <cc3000/wlan.h>
 #include <cc3000/evnt_handler.h>

@@ -1,3 +1,5 @@
+#include <stdint.h>
+#include <libopencm3/cm3/common.h>
 #include <libopencm3/stm32/f0/rcc.h>
 #include <libopencm3/stm32/f0/gpio.h>
 #include <libopencm3/stm32/f0/exti.h>
