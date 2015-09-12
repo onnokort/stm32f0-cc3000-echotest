@@ -49,8 +49,9 @@ CFLAGS		+= -Os -g -mlittle-endian \
 LDSCRIPT	?= $(BINARY).ld
 LDFLAGS		+= --static -Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group \
 		   -L$(TOOLCHAIN_DIR)/lib \
-		   -T$(LDSCRIPT) -nostartfiles -Wl,--gc-sections \
+		   -T$(LDSCRIPT) -nostartfiles \
 		   $(ARCH_FLAGS) -mfix-cortex-m3-ldrd 
+#                  -Wl,--gc-sections
 
 ifneq ($(OPENCM3_DIR),)
 CFLAGS          += -I$(OPENCM3_DIR)/include
